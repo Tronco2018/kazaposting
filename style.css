@@ -1,4 +1,7 @@
-body {
+body{
+  background-color:#242424;
+}
+    .grid { 
       margin: 0;
       font-family: Calibri, sans-serif;
       background: #242424;
@@ -8,6 +11,7 @@ body {
     h1 {
       text-align: center;
       padding: 1rem;
+      color:white;
     }
 
     .grid {
@@ -29,7 +33,7 @@ body {
       flex-direction: column;
     }
 
-    .item img {
+    .item video {
       width: 100%;
       height: auto;
       display: block;
@@ -69,4 +73,15 @@ dialog img {
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.bandiera{
+  max-height:100px;
+  width:auto;
+  padding-left:10%;
+  padding-top:2%;
+}
+.titleDiv{
+  display:flex;
+  padding-top:2%;
 }
